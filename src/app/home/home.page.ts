@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  my_name: string = "Yaroslav!"
 
 }
