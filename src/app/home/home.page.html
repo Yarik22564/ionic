@@ -9,5 +9,9 @@
 <ion-content [fullscreen]="true">
   <ion-input label="Default input" [(ngModel)]="my_name"></ion-input>
   <ion-button (click)="press_me()"> Нажми меня</ion-button>
-  
+  <ion-list>
+    <ion-item *ngFor="let book of books">
+      <ion-label>{{book}}</ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>

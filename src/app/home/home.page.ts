@@ -13,4 +13,5 @@ export class HomePage {
   press_me(){
   this.my_name = this.my_name + "!"
   }
+  books: string[]=["Стрелок","Метро 2033","Остров сокровищ"]
 }
